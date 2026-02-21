@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Minhas Tarefas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Minhas Tarefas** é uma aplicação web de gestão de tarefas (To-Do List) desenvolvida com **React**, **TypeScript** e **Redux**. A aplicação permite aos utilizadores organizar as suas tarefas diárias de forma eficiente, utilizando uma interface moderna e responsiva construída com **Styled Components**.
 
-## Available Scripts
+## 🚀 Tecnologias Utilizadas
 
-In the project directory, you can run:
+Este projeto foi construído utilizando as seguintes tecnologias e bibliotecas:
 
-### `npm start`
+- **React 18**: Biblioteca principal para a construção da interface.
+- **TypeScript**: Adiciona tipagem estática ao JavaScript para maior segurança e produtividade.
+- **Redux Toolkit**: Para a gestão de estado global da aplicação.
+- **React Router DOM**: Para a navegação entre as páginas (Home e Cadastro).
+- **Styled Components**: Para a estilização baseada em componentes utilizando CSS-in-JS.
+- **Prettier & ESLint**: Para a padronização e qualidade do código.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📋 Funcionalidades
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Visualização de listas de tarefas.
+- Filtragem de tarefas por estado ou prioridade.
+- Criação de novas tarefas através de um formulário dedicado na rota `/novo`.
+- Persistência de dados e gestão de estado centralizada com Redux.
 
-### `npm test`
+## 🛠️ Instalação e Execução
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para executar este projeto localmente, siga os passos abaixo:
 
-### `npm run build`
+1. **Clone o repositório:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone [url-do-repositorio]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Instale as dependências:**
 
-### `npm run eject`
+```bash
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Inicie o servidor de desenvolvimento:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
 
-## Learn More
+A aplicação será aberta no endereço [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🏗️ Estrutura de Pastas Principais
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `src/pages`: Contém as páginas principais da aplicação, como `Home` e `Cadastro`.
+- `src/store`: Configuração do estado global com Redux.
+- `src/styles`: Ficheiros de estilização global e temas com Styled Components.
+- `src/App.tsx`: Ponto de entrada da aplicação com a definição das rotas.
+
+## 🌐 Web
+
+- Link da [Vercel](minhas-tarefas-hectorsalg.vercel.app/)
+
+## 📜 Scripts Disponíveis
+
+No diretório do projeto, pode executar:
+
+- `npm start`: Executa a aplicação em modo de desenvolvimento.
+- `npm run build`: Cria a versão de produção na pasta `build`.
+- `npm test`: Inicia o executor de testes.
+- `npm run format`: Formata o código automaticamente utilizando o Prettier.
